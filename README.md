@@ -62,16 +62,16 @@ A single **Refresh data** button downloads the latest data from the API and upda
 ```text
 ukhsa-disease-tracking-dashboard/
 ├── images/
-│   ├── weekly-line-chart.png
-│   ├── monthly-bar-chart.png
+│   ├── interactive-monthly-influenza.png
 │   ├── interactive-weekly-log.png
-│   └── interactive-monthly-influenza.png
+│   ├── monthly-bar-chart.png
+│   └── weekly-line-chart.png
+├── README.md
 ├── adenovirus.json
 ├── influenza.json
-├── rsv.json
-├── ukhsa_disease_tracking_dashboard.ipynb
 ├── requirements.txt
-└── README.md
+├── rsv.json
+└── ukhsa_disease_tracking_dashboard.ipynb
 ```
 
 The notebook contains the full dashboard. The three `.json` files hold the 2025 data used for the charts above.
