@@ -1,0 +1,6 @@
+requests
+pandas>=2.2
+matplotlib
+ipywidgets>=8
+notebook
+voila
